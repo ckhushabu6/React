@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice 5</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root">i am coming from main div...!</div>
+    <button onclick="clickMe()">submit me from Main DOM</button>
+    <script>
+       function  clickMe(){
+            alert("BUtton is clicked from main DOM ...!");
+        }
+    </script>
+    <script type="">
+        let button = React.createElement("button", {
+            onClick : ()=>alert("Button is clecked from react...!")
+        } , "submit Buttom");
+        let root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(button);
+    </script>
+</body>
+</html>

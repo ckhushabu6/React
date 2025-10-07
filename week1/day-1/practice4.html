@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>property in react</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <style>
+        #heding{
+            border:2px solid palevioletred;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="root">Hey i am coming from Browser DOM</div>
+
+
+<script type="">
+    let div = React.createElement('h1', {
+        id : "heding",
+        style :{color : "red" , backgroundColor : "yellow"},
+        children : 'Hey i am coming from react VDOM ...!',
+    }, );
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(div)
+
+</script>
+    
+</body>
+</html>

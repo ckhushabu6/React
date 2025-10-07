@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
+</head>
+<body>
+    <div id="root">hii i am coming from the DOM...!</div>
+    <!-- <script>
+  const element = document.createElement("p");
+  element.textContent = "Hello, World";
+  document.body.appendChild(element);
+  </script> -->
+ <script type="">
+    // let age = 20 ; -- can not do 
+    // let name = khushabu ;----||----
+    let element = React.createElement('p',{}, "i name is {name} i am {age } year old...!");
+    let div = React.createElement('div',null, "hey i am first div",
+    React.createElement('p', {}, ' hey i am internal p'));
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(div);
+    // root.render(element);----last reander run only
+ </script>
+
+
+</body>
+</html>
