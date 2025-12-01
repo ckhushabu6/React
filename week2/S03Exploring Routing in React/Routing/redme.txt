@@ -1,0 +1,10 @@
+in  this  i  learnt
+1. what  is  BrowserRouter
+2. what  is  Routes
+3. what  is  Route
+4. what is Navigate in  routing
+5. <Link  to="/">  tag
+6. Navigate using  button
+7. if  user  type  wrong route  solution  *  Route
+8.  why  <Link  to> tag  why  not  <a href>  
+9. Daynamic Routeing

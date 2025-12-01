@@ -1,0 +1,17 @@
+React Stopwatch with Sound Trigger
+Objective:
+Create a stopwatch that starts counting when the user clicks "Start" and plays a sound when it reaches a set time (e.g., 10 seconds). This tests useState, useEffect, and time-based logic.
+
+Requirements:
+Display elapsed seconds.
+
+Start and Stop buttons.
+
+On reaching 10 seconds, play a sound (use a free mp3 URL or dummy console log if needed).
+
+Use useEffect to manage setInterval and cleanup.
+
+Bonus:
+Add a Reset button.
+
+Allow user to set their own target time using an input.
